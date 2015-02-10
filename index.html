@@ -1,20 +1,16 @@
-<!DOCTYPE Html>
-<html>
-<head>
-<title> jmister28 </title>
-</head>
-<body>
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
 <script>
-function myFunction() {
-    var person = prompt("Please enter your name", "Harry Potter");
-    if (person != null) {
-        document.getElementById("demo").innerHTML =
-        "Hello " + person + "! How are you today?";
-    }
+    // Check if the user is ready to play!
+
+var age = prompt("What's your age");
+if(age < 13)
+{
+    console.log("you are allowed to play");
+    console.log("You are at a Justin Bieber concert, and you hear this lyric 'Lace my shoes off, start racing.'")
+    console.log("Suddenly, Bieber stops and says, 'Who wants to race me?'")
+    var userAnswer = prompt("Do you want to race Bieber on stage?")
+}
+    else
+{
+    console.log("you are not allowed to play")
 }
 </script>
-</body>
-</html>
